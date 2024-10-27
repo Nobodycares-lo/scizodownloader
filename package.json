@@ -1,0 +1,25 @@
+{
+  "name": "scizodownloader",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nobodycares-lo/scizodownloader.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/Nobodycares-lo/scizodownloader/issues"
+  },
+  "homepage": "https://github.com/Nobodycares-lo/scizodownloader#readme",
+  "dependencies": {
+    "express": "^4.21.1"
+  }
+}
