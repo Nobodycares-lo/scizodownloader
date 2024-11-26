@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded", () => {
       // We only want the function to run if the key pressed is the Enter key
       if (e.key !== "Enter") return;
       const url = input.value;
-      fetch('http://172.93.102.44:9000/', {
+      fetch('https://api.cobalt.immortal2willlose.xyz', {
         method: "POST",
         headers: {
             "Content-Type": "application/json",
@@ -26,7 +26,7 @@ document.addEventListener("DOMContentLoaded", () => {
       })
       .then(data => {
         console.log(data);
-        const url2 = data.url.replace("localhost:", "172.93.102.44:")
+        const url2 = data.url.replace("localhost:9000", "https://api.cobalt.immortal2willlose.xyz")
         window.open(url2);
         
       })
