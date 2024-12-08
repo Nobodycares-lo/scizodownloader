@@ -26,7 +26,7 @@ document.addEventListener("DOMContentLoaded", () => {
       })
       .then(data => {
         console.log(data);
-        const url2 = data.url.replace("localhost:9000", "https://api.cobalt.immortal2willlose.xyz")
+        const url2 = data.url.replace("http://localhost:9000", "https://api.cobalt.immortal2willlose.xyz")
         window.open(url2);
         
       })
