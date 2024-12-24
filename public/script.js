@@ -14,7 +14,8 @@ document.addEventListener("DOMContentLoaded", () => {
           body: JSON.stringify({
             "url": url,
             "audioFormat": "mp3",
-            "filenameStyle": "pretty"
+            "filenameStyle": "pretty",
+            "youtubeHLS": true
           })
       }
     )
